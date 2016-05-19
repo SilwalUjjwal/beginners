@@ -13,11 +13,12 @@ public class Main {
   public Main() {
     // Write your code here
 
-      Double d = new Double("0");
+      Double d = new Double("0.0");
     String parsing = parseThis;
     String[] parts = parsing.split("-");
-    System.out.println(parts[2].trim());
+
     value = d.parseDouble(parts[2].trim());
+      System.out.println(value);
   }
 
   public static void main(String[] args) {

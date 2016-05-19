@@ -23,8 +23,22 @@ public class Main {
   public Main() {
     // Write your code here
 
-
+    for (int i = 0; i < originalList.size(); i++) {
+      if (originalList.get(i).getType() == "herbivore")
+        herbivores.add(originalList.get(i));
+      else if (originalList.get(i).getType() == "carnivore")
+        carnivores.add(originalList.get(i));
+      else
+        omnivores.add(originalList.get(i));
+    }
   }
+
+
+
+
+
+
+
   public static void main(String[] args) {
     new Main();
   }
