@@ -33,6 +33,7 @@ Each character in this string has been encrypted by increasing the ASCII value o
 20160519150000
 STX,6-3.0
 CONF4
+
 </code></pre>
 
 We need to decrypt the encrypted string and then extract the value *3.0* from the second line.
